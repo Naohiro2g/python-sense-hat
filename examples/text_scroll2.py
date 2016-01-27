@@ -16,7 +16,7 @@ while True:
     text_colour = (r, g, b)
 
 #    sense.show_message(msg, text_colour = (r, g, b))
-    sense.show_message()
+    sense.show_message(msg)
     time.sleep(2.0)
 
 
