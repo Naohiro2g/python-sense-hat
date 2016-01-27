@@ -13,10 +13,10 @@ while True:
     g = random.randint(32, 255)
     b = random.randint(32, 255)
     text_colour = (r, g, b)
-    scroll_speed = random.randint(0, 10) * 0.01
+    scroll_speed = 0.01 * random.randint(0, 10)
 
     sense.show_message(msg, text_colour)
-#    time.sleep(2.0)
+    time.sleep(2.0)
 
 
 ### show_message
