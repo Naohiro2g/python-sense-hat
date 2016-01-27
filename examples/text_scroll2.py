@@ -21,6 +21,8 @@ while True:
 
 ### show_message
 """
+git test
+
 Scrolls a text message from right to left across the LED matrix and at the specified speed, in the specified colour and background colour.
 
 `scroll_speed` | Float | Any floating point number. | The speed at which the text should scroll. This value represents the time paused for between shifting the text to the left by one column of pixels. Defaults to `0.1`
