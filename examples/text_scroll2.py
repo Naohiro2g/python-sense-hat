@@ -16,7 +16,7 @@ while True:
     scroll_speed = random.randint(0, 10) * 0.01
 
     sense.show_message(msg, text_colour)
-    time.sleep(2)
+    time.sleep(2.0)
 
 
 ### show_message
