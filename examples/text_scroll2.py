@@ -15,7 +15,7 @@ while True:
 #    scroll_speed = random.uniform(0.02, 0.1)
 #    text_colour = (r, g, b)
 
-    sense.show_message(msg, text_colour = (r, g, b), scroll_speed = random.uniform(0.02, 0.1))
+    sense.show_message(msg, text_colour = (r, g, b), scroll_speed = random.uniform(0.04, 0.08))
 
 #    sense.show_message()  no good! at least 2 parameters requied
 #    sense.show_message(msg)   no good, no color changes
