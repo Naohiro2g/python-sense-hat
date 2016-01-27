@@ -8,7 +8,7 @@ sense.set_rotation(180)
 msglist = ['Hello world!!', 'One small step for Pi!!', 'Hamamatsu IT Kids', 'IT Robot School', 'Naohiro Tsuji', 'SoniVis Corporation', 'Raspberry Pi 2', 'Astro Pi in the sky...' ]
 
 while True:
-    msg = msglist[random.randint(0, len(msglist) - 1]
+    msg = msglist[random.randint(0, len(msglist) - 1)]
     r = random.randint(32, 255)
     g = random.randint(32, 255)
     b = random.randint(32, 255)
